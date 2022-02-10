@@ -95,24 +95,22 @@ a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* .d-bloc button:hover { 
+.d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
- } 
+}
 
-/* .d-bloc .navbar a,
+.d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc p a {
   color: rgba(255, 255, 255, 0.6);
-} 
+}
 
- .d-bloc .navbar a:hover, 
+.d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
@@ -135,7 +133,7 @@ a:hover {
 
 .d-bloc .panel icon {
   border-color: rgba(0, 0, 0, 0.7);
-} */
+}
 
 .d-bloc .panel,
 .l-bloc {
@@ -509,14 +507,15 @@ a {
 label {
   font-size: 16px;
 }
-
-.citation {
+.quotation {
   font-size: 1.4em;
+}
+.quotation-style{
+  font-style: italic;
 }
 .container {
   max-width: 1000px;
 }
-
 .hero-bloc-text {
   font-size: 38px;
   background-color: rgba(255, 255, 255, 0);
@@ -547,7 +546,7 @@ p {
 
 .social {
   max-width: 400px;
-  margin: auto auto auto auto;
+  margin: auto;
 }
 
 h2 {
@@ -581,10 +580,6 @@ h1 {
   margin-bottom: 14px;
   margin-top: 24px;
 }
-
-/* .white {
-  color: #ffffff;  !important ;
-} */
 
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -732,6 +727,15 @@ h1 {
     padding-left: 10px /* !important */;
     padding-right: 10px /* !important */;
   }
+  h2 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
   .b-parallax {
     background-attachment: scroll;
   }
@@ -756,13 +760,20 @@ h1 {
     background: rgba(0, 0, 0, 0.05); */
     text-align: left;
     /* padding-left: 15px; */
+    font-size: 22px;
     width: 46%;
   }
+
   .nav > li:hover {
     background: rgba(0, 0, 0, 0.08);
   }
   .hero {
     padding: 50px 0;
+  }
+
+  .hero-bloc-text {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0);
   }
   .navbar-collapse {
     padding: 0;
